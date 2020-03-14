@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "tetra-ui-lib": [
+        "dist/tetra-ui-lib"
+      ],
+      "tetra-ui-lib/*": [
+        "dist/tetra-ui-lib/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

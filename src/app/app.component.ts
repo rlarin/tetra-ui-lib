@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'TETRA';
+  public totalClickedAmount = 0;
+
+  totalClickedHandler(e) {
+    this.totalClickedAmount = e;
+  }
 }
